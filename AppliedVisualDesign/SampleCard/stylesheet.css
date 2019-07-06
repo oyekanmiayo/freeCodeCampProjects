@@ -1,24 +1,102 @@
 
+body{
+    /* background: repeating-linear-gradient(
+        35deg,
+        #CCFFFF, 
+        #CCFFFF 40px, 
+        #FFCCCC 40px,
+        #FFCCCC 80px,
+        yellow 80px
+    ) no-repeat;
+
+    background-attachment: fixed;
+    background-size: cover; */
+
+    background-color: rgba(45, 45, 45, 0.1);
+}
+
+.notice-success{
+    background: #67B11C 
+        url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/29841/tick_2.png")
+        no-repeat;
+
+    /*first 20px is the horizontal value (20px away from left of element*/
+    /*second 50% is vertical value so that is it centered within element*/
+    background-position: 20px 50%; 
+
+    border-width: 2px;
+    border-style: solid;
+    border-color: #467813;
+    border-radius: 5px;
+    
+    color: #fff;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+    padding-top: 15px;
+    padding-right: 20px;
+    padding-bottom: 15px;
+    padding-left: 50px;
+}
+
 h4{
     text-align: center;
+    padding: 20px;
+    font-size: 27px;
+    /* background-color: rgba(45, 45, 45, 0.1); */
+    background: repeating-linear-gradient(
+        35deg, 
+        #CCFFFF, 
+        #CCFFFF 20px, 
+        #FFCCCC 20px,
+        #FFCCCC 40px
+    );
+    margin-top: 0px;
 }
 
 .fullCard{
     width: 50%;
     border: 1px solid #ccc;
     border-radius: 5px;
-    padding: 4px;
     margin: auto;
+    margin-top: 40px;
+    box-shadow: 0 10px 50px -10px rgba(0,0,0,0.19);
 }
 
-.cardContent{
+p {
     padding: 10px;
 }
 
 .cardLinks{
     text-align: center;
+    padding-bottom: 15px;
 }
 
 a{
     text-decoration: none;
+}
+
+.module {
+    background: white;
+    border: 1px solid #ccc;
+    margin: 3%;
+}
+
+.module > h2 {
+    padding: 1rem;
+    margin: 0 0 0 0;
+}
+
+.module  > p {
+    padding: 0 1rem;
+}
+  
+.stripe-1 {
+    color: white;
+    background: repeating-linear-gradient(
+      45deg,
+      #606dbc,
+      #606dbc 10px,
+      #465298 10px,
+      #465298 20px
+    );
 }
