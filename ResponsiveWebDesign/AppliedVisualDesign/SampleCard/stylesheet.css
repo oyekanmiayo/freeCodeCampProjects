@@ -13,6 +13,7 @@ body{
     background-size: cover; */
 
     background-color: rgba(45, 45, 45, 0.1);
+    background: url("https://i.imgur.com/MJAkxbh.png");
 }
 
 .notice-success{
